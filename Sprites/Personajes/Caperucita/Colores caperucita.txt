@@ -1,0 +1,8 @@
+rojo: b91e16
+rojo2: 92611b
+rubio: d5d124
+carne: fdddca
+carne2: ddb69e
+cesta: 926e13
+envoltorio magdalena: f3f2ee
+magdalena: f34ff0
