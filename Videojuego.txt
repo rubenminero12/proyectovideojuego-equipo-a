@@ -1,0 +1,54 @@
+Nombre: Caperucita y el Lobo
+El menú contendrá 2 opciones:
+-Neva Partida.
+-Cargar Partia.
+Una vez comenzada una nueva partida se podrá elegir entre 2 personajes:
+-Caperucita:
+--Habilidad: Tiene un número limitado de magdalenas que puede lanzar, en el mapa podrá recoger más.
+--Ataque basico: Golpea con su cesta.
+-Lobo:
+--Habilidad: Realiza un 'dash' hacia la direción en la que mira, y hace daño a los enemigos que pasa por encima.
+--Ataque basico: Muerde con sus colmillos.
+Se tendrán que superar 3 stages, cada uno tendrá 3 nivels, el último nivel sera una pelea contra un boss.
+-El stage 1 transcurre en el bosque, siendo el nivel 3 en una zona con arboles talados cerca de la cabaña del leñador.
+ Enemigos y/o obstaculos: Serpientes, ramas, arboles caidos, avispas, jabalíes.
+-El stage 2 en una tundra, siendo el nivel 3 en una zona con un rio cerca de la cabaña del cazador.
+ Enemigos y/o obstaculos: Lagos, zorros, serpientes, arbustos, rios.
+-El stage 3 en una zona rocosa con montañas de fondo, siendo el nivel 3 en la cabaña de la abuela.
+ Enemigos y/o obstaculos: Desprendimientos de rocas, zorros, acantilados, rocas. 
+Los bosses para cada personaje serán:
+-Caperucita...Bandido, Oso, Lobo.
+-Lobo...Leñador, Cazador, Abuela.
+Los stages serán iguales para los dos personajes, solo se introducirán para caperucita los cadaveres del leñador,
+ el cazador y la abuela (los jefes finales que derrota el lobo) de fondo.
+Caracteristicas de los bosses:
+-Bandido...Señor de mediana edad con capucha, no tiene cambios de fase, sus ataques son puñalada y lanzar una piedra
+ (Mecanicas para el personaje, dos opciones, acercarse y atacar con la navaja o ponerse a range y lanzar piedra)
+-Oso...Oso pardo, no tiene cambios de fase, sus ataques son golpe en el suelo aturde en un area y zarpazo.
+ Para que la pelea no sea monotona, se le añade un cd(cool down) al golpe en el suelo de 5 segundos.
+ *Cool down: Periodo en el que no puede utilizar la habilidad.
+ (Mecanicas para el personaje, acercarse y atacar, primero intenta aturdir y luego zarpazo)
+-Lobo...El segudno personaje principal, los ataques serán los mismos.Tiene una velocidad mayor a la de caperucita.
+ Tiene 2 fases.
+ Fase1..Solo utiliza el mordisco.
+ Fase2..Entra cuando llega a la mitad de la vida, se quita el disfrza de abuela y puede utilizar el 'dash'.
+ Cd del dash de 5 segundos.
+ (Mecanica para el personaje acercarse y atacar, cuando tiene el dash, utilizarlo para esquivar los proyectiles de
+ Caperucita)
+-Leñador...Señor con fuertes musculoso, no tiene cambios de fase, sus ataques son golpe con el hacha y habilidad
+ en la que se queda 3 segundos en el sitio 'cargando' para lanzar un ataque con el hacha el cual crea un proyectil que
+ recorre todo el escenario que tiene por delante.
+ Cd de la habilidad 7 segundos.
+ (Mecanicas del personaje acercarse lentamente al enemigo, y golpear cuando esé a rango)
+-Cazador...Señor barbudo con un puro en la boca y una escopeta en la mano, no tiene cambios de fase, ataques basicos
+ culetazo con la escopeta y disparo con esta(Recarga cada dos disparos, tiempo de recarga 3 segundos)
+ (Mecanicas del personaje, disparar y atacar cuando el enemigo se acerce)
+-Abuela...Una abuela, tiene 2 fases:
+ Fase 1..Ataca con su bastón.
+ Fase 2..Se activa cuando llega a un cuarto de la vida, adquiere una velocidad el doble de rapida y sus golpes son el
+ el doble de fuertes.Tambien puede lanzar zapatillas.
+Las cinematicas del final del juego serán:
+-Para Caperucita...Derrota al Lobo, empieza a llover, ve a su abuela, la niña llora y luego se ve una escena del entierro.
+-Para el Lobo...Devora a la abuela, se disfraza y se mete en la cama a esperar a Caperucita.
+
+Para todo el tema del arte se recomienda utilizar piskel. 
