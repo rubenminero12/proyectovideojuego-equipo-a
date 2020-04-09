@@ -1,7 +1,7 @@
 import arcade
 
 import UI.Element
-
+import UI.Anchor
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
@@ -22,9 +22,10 @@ class Game(arcade.Window):
         self.user_interface = UI.Element.Element(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
 
         # Creamos un boton (posicion x, posicion y, ancho, alto)
-        self.button = UI.Element.Element(50, 50, 70, 70)
+        self.button = UI.Element.Element(0, 0, 200, 200, UI.Anchor.CENTER)
 
         self.num = 0
+        self.FPS = 0.0
 
         # Los sprites que usará el boton...
         self.button.set_default_sprite("Sprites/UI/button.png")  # Por defecto
